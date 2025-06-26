@@ -16,7 +16,7 @@ If the community shows real interest, the plan is to build a full-featured desig
 
 ---
 
-Glass morphism effects demonstration project in Jetpack Compose with support for Android API 33+.
+Glass morphism effects demonstration project in Jetpack Compose with support for Android API 21+.
 <img src="screenshots/button.gif" width="350"/>
 
 <img src="screenshots/card.gif" width="350"/>
@@ -25,7 +25,7 @@ Glass morphism effects demonstration project in Jetpack Compose with support for
 ## 🎯 Features
 
 - ✨ Realistic glass morphism effects
-- 📱 Support for Android API 24+ (Android 7.0 and above)
+- 📱 Support for Android API 21+ (Android 5.0 and above)
 - 🔄 Automatic fallback for older Android versions
 - 🎨 Real-time customizable parameters
 - 🚀 High performance using AGSL shaders
@@ -39,7 +39,7 @@ Glass morphism effects demonstration project in Jetpack Compose with support for
 
 <img src="screenshots/tinted_glass.png" width="350"/>
 
-### Android 7.0 - 12 (API 24-32)
+### Android 5.0 - 12 (API 21-32)
 - Fallback implementation using standard Compose modifiers
 - Glass effect simulation using gradients and transparency
 - No blur support (blur only available with AGSL shaders)
@@ -132,14 +132,14 @@ Try the interactive demo app included in this repository! The demo lets you:
 - Support for up to 10 glass elements simultaneously in one GlassContainer
 - Realistic effects: blur, distortion, shadows, reflections
 
-### Android 7.0-12 (Fallback)
+### Android 5.0-12 (Fallback)
 - Gradient backgrounds to simulate glass
 - No blur support (blur only works with AGSL shaders)
 - Transparency and scaling effects
 
 ## 📋 Requirements
 
-- Android API 24+ (Android 7.0)
+- Android API 21+ (Android 5.0)
 - Jetpack Compose BOM 2024.09.00+
 - Kotlin 2.0.21+
 - Gradle 8.10.0+

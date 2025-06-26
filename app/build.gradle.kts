@@ -10,10 +10,10 @@ android {
 
     defaultConfig {
         applicationId = "com.mrtdk.liquid_glass"
-        minSdk = 24
+        minSdk = 21
         targetSdk = 35
         versionCode = 1
-        versionName = "1.0"
+        versionName = "0.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
